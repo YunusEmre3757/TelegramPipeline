@@ -1,0 +1,22 @@
+# Telegram oturumu = hesabına giriş anahtarı, asla paylaşma
+*.session
+*.session-journal
+
+# Veritabanı ve üretilen dosyalar
+*.db
+*.db-wal
+*.db-shm
+channels_candidates.txt
+sources/
+__pycache__/
+.venv/
+*.lock
+*.log
+*.log.*
+*.health.json
+*.health.json.tmp
+.env
+collector.env
+local-pilot/
+.playwright-mcp/
+.claude/
